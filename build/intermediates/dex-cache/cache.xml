@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/libs/libmuse_android.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cce4cb786b78a38499b7e22e6d833964ced0acee">
+        <dex dex="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/2/libmuse_android_45db260f37467c1b61ecac1362ba0986f902a021/classes.dex" />
+    </item>
+    <item
+        jar="/home/derekja/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_68eccac821f550b719a7ad1c4e7d333647e9c63d/classes.dex" />
+    </item>
+    <item
+        jar="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_61ad69ab19be91f0f9febe85690113d5b533f6fb/classes.dex" />
+    </item>
+    <item
+        jar="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="deec18ba54f2fae21bce7cf7a74e2099cfd76e7e">
+        <dex dex="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b8d05bcc38795c20d8e9707d53f604a3d9894fff/classes.dex" />
+    </item>
+    <item
+        jar="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e56d7ab54bd1227c996494f3952e25b3ef3bc488">
+        <dex dex="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_df6619e316777fcbb72a1eaff333a48de91e1684/classes.dex" />
+    </item>
+    <item
+        jar="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.1.1_1591bd33a2d98a719e75faafba683f92bb45592b/classes.dex" />
+    </item>
+
+</items>
