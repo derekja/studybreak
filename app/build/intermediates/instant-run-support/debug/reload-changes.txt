@@ -1,2 +1,12 @@
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$6$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$1$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$7$override.class
 CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
 CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$MuseL$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$ConnectionListener$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$DataListener$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$2$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$5$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$4$override.class
+CHANGED,/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/choosemuse/example/libmuse/MainActivity$3$override.class

@@ -262,7 +262,6 @@ public class MainActivity extends Activity implements OnClickListener {
                 muse.unregisterAllListeners();
                 muse.registerConnectionListener(connectionListener);
                 muse.registerDataListener(dataListener, MuseDataPacketType.EEG);
-                muse.registerDataListener(dataListener, MuseDataPacketType.ALPHA_RELATIVE);
                 muse.registerDataListener(dataListener, MuseDataPacketType.ALPHA_ABSOLUTE);
                 muse.registerDataListener(dataListener, MuseDataPacketType.BETA_ABSOLUTE);
                 muse.registerDataListener(dataListener, MuseDataPacketType.THETA_ABSOLUTE);
@@ -514,7 +513,7 @@ public class MainActivity extends Activity implements OnClickListener {
         //create intro dialog
         //AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         //builder.setMessage(R.string.introdialog_message)
-        //        .setTitle(R.string.introdialog_title)
+        //        .setTitle("Study Break")
         //        .show();
 
     }
