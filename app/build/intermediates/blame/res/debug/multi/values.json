@@ -1,470 +1,5 @@
 [
     {
-        "outputFile": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/values/values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 89,
-                        "endColumn": 57,
-                        "endOffset": 142
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 113,
-                    "endColumn": 55,
-                    "endOffset": 164
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 147,
-                        "endColumn": 55,
-                        "endOffset": 198
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 169,
-                    "endColumn": 53,
-                    "endOffset": 218
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 493,
-                        "endColumn": 53,
-                        "endOffset": 542
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 223,
-                    "endColumn": 52,
-                    "endOffset": 271
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 165,
-                        "endColumn": 52,
-                        "endOffset": 213
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 276,
-                    "endColumn": 55,
-                    "endOffset": 327
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 56,
-                        "endColumn": 55,
-                        "endOffset": 107
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 332,
-                    "endColumn": 51,
-                    "endOffset": 379
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 638,
-                        "endColumn": 51,
-                        "endOffset": 685
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 384,
-                    "endColumn": 43,
-                    "endOffset": 423
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 218,
-                        "endColumn": 43,
-                        "endOffset": 257
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 428,
-                    "endColumn": 49,
-                    "endOffset": 473
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 316,
-                        "endColumn": 49,
-                        "endOffset": 361
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 478,
-                    "endColumn": 37,
-                    "endOffset": 511
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 794,
-                        "endColumn": 37,
-                        "endOffset": 827
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 516,
-                    "endColumn": 41,
-                    "endOffset": 553
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 451,
-                        "endColumn": 41,
-                        "endOffset": 488
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 558,
-                    "endColumn": 52,
-                    "endOffset": 606
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 112,
-                        "endColumn": 52,
-                        "endOffset": 160
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 611,
-                    "endColumn": 40,
-                    "endOffset": 647
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 410,
-                        "endColumn": 40,
-                        "endOffset": 446
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 652,
-                    "endColumn": 56,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 690,
-                        "endColumn": 56,
-                        "endOffset": 742
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 53,
-                    "endOffset": 758
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 832,
-                        "endColumn": 53,
-                        "endOffset": 881
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 763,
-                    "endColumn": 46,
-                    "endOffset": 805
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 747,
-                        "endColumn": 46,
-                        "endOffset": 789
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 810,
-                    "endColumn": 241,
-                    "endOffset": 1047
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 966,
-                        "endColumn": 241,
-                        "endOffset": 1203
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1052,
-                    "endColumn": 78,
-                    "endOffset": 1126
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 887,
-                        "endColumn": 78,
-                        "endOffset": 961
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1131,
-                    "endColumn": 69,
-                    "endOffset": 1196
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 1208,
-                        "endColumn": 69,
-                        "endOffset": 1273
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1201,
-                    "endColumn": 43,
-                    "endOffset": 1240
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 366,
-                        "endColumn": 43,
-                        "endOffset": 405
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 1245,
-                    "endColumn": 53,
-                    "endOffset": 1294
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 262,
-                        "endColumn": 53,
-                        "endOffset": 311
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 1299,
-                    "endColumn": 45,
-                    "endOffset": 1340
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 592,
-                        "endColumn": 45,
-                        "endOffset": 633
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 1345,
-                    "endColumn": 44,
-                    "endOffset": 1385
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 547,
-                        "endColumn": 44,
-                        "endOffset": 587
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 24,
-                    "startColumn": 4,
-                    "startOffset": 1390,
-                    "endLine": 30,
-                    "endColumn": 12,
-                    "endOffset": 1676
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 186,
-                        "endLine": 12,
-                        "endColumn": 12,
-                        "endOffset": 472
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 1681,
-                    "endLine": 33,
-                    "endColumn": 12,
-                    "endOffset": 1836
-                },
-                "from": {
-                    "file": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/values/styles.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 510,
-                        "endLine": 17,
-                        "endColumn": 12,
-                        "endOffset": 665
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/home/derekja/urthecast/studybreak/app/build/intermediates/res/merged/debug/values/values.xml",
         "map": [
             {
@@ -520,32 +55,46 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 276,
-                    "endColumn": 47,
-                    "endOffset": 319
+                    "endColumn": 159,
+                    "endOffset": 431
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1447,
+                        "endColumn": 159,
+                        "endOffset": 1602
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 324,
-                    "endColumn": 51,
-                    "endOffset": 371
+                    "startOffset": 436,
+                    "endColumn": 63,
+                    "endOffset": 495
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1383,
+                        "endColumn": 63,
+                        "endOffset": 1442
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 376,
-                    "endColumn": 43,
-                    "endOffset": 415
+                    "startOffset": 500,
+                    "endColumn": 47,
+                    "endOffset": 543
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -555,9 +104,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 420,
-                    "endColumn": 49,
-                    "endOffset": 465
+                    "startOffset": 548,
+                    "endColumn": 51,
+                    "endOffset": 595
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -567,9 +116,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 470,
-                    "endColumn": 37,
-                    "endOffset": 503
+                    "startOffset": 600,
+                    "endColumn": 43,
+                    "endOffset": 639
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -579,9 +128,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 508,
-                    "endColumn": 41,
-                    "endOffset": 545
+                    "startOffset": 644,
+                    "endColumn": 49,
+                    "endOffset": 689
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -591,9 +140,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 550,
-                    "endColumn": 52,
-                    "endOffset": 598
+                    "startOffset": 694,
+                    "endColumn": 37,
+                    "endOffset": 727
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -603,9 +152,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 603,
-                    "endColumn": 40,
-                    "endOffset": 639
+                    "startOffset": 732,
+                    "endColumn": 41,
+                    "endOffset": 769
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -615,9 +164,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 644,
-                    "endColumn": 56,
-                    "endOffset": 696
+                    "startOffset": 774,
+                    "endColumn": 52,
+                    "endOffset": 822
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -627,52 +176,59 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 701,
-                    "endColumn": 66,
-                    "endOffset": 763
+                    "startOffset": 827,
+                    "endColumn": 40,
+                    "endOffset": 863
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 824,
-                        "endColumn": 66,
-                        "endOffset": 886
-                    }
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 768,
-                    "endColumn": 46,
-                    "endOffset": 810
+                    "startOffset": 868,
+                    "endColumn": 399,
+                    "endOffset": 1263
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 949,
+                        "endColumn": 399,
+                        "endOffset": 1344
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 815,
-                    "endColumn": 241,
-                    "endOffset": 1052
+                    "startOffset": 1268,
+                    "endColumn": 57,
+                    "endOffset": 1321
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 57,
+                        "endOffset": 944
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1057,
-                    "endColumn": 78,
-                    "endOffset": 1131
+                    "startOffset": 1326,
+                    "endColumn": 56,
+                    "endOffset": 1378
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -682,9 +238,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1136,
-                    "endColumn": 69,
-                    "endOffset": 1201
+                    "startOffset": 1383,
+                    "endColumn": 66,
+                    "endOffset": 1445
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -694,21 +250,28 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1206,
-                    "endColumn": 43,
-                    "endOffset": 1245
+                    "startOffset": 1450,
+                    "endColumn": 33,
+                    "endOffset": 1479
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1349,
+                        "endColumn": 33,
+                        "endOffset": 1378
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1250,
-                    "endColumn": 53,
-                    "endOffset": 1299
+                    "startOffset": 1484,
+                    "endColumn": 46,
+                    "endOffset": 1526
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -718,9 +281,9 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1304,
-                    "endColumn": 45,
-                    "endOffset": 1345
+                    "startOffset": 1531,
+                    "endColumn": 241,
+                    "endOffset": 1768
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -730,9 +293,9 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1350,
-                    "endColumn": 44,
-                    "endOffset": 1390
+                    "startOffset": 1773,
+                    "endColumn": 78,
+                    "endOffset": 1847
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -742,10 +305,70 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1395,
-                    "endLine": 30,
+                    "startOffset": 1852,
+                    "endColumn": 69,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endColumn": 43,
+                    "endOffset": 1961
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1966,
+                    "endColumn": 53,
+                    "endOffset": 2015
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2020,
+                    "endColumn": 45,
+                    "endOffset": 2061
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2066,
+                    "endColumn": 44,
+                    "endOffset": 2106
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2111,
+                    "endLine": 35,
                     "endColumn": 12,
-                    "endOffset": 1681
+                    "endOffset": 2397
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/styles.xml"
@@ -753,12 +376,12 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1686,
-                    "endLine": 33,
+                    "startOffset": 2402,
+                    "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 1841
+                    "endOffset": 2557
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/styles.xml"

@@ -510,6 +510,13 @@ public class MainActivity extends Activity implements OnClickListener {
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
         musesSpinner.setAdapter(spinnerAdapter);
+
+        //create intro dialog
+        //AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        //builder.setMessage(R.string.introdialog_message)
+        //        .setTitle(R.string.introdialog_title)
+        //        .show();
+
     }
 
     /**

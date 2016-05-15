@@ -18,6 +18,11 @@
     <string name="pause">Pause/Resume</string>
     <string name="drop">Drop</string>
     <string name="muse_elem">Attention scores, by channel</string>
+    <string name="introdialog_title">Study Break</string>
+    <string name="introdialog_message">This application will connect to your InterAxon Muse and watch while you study. If you start to lose focus, it will prompt you to get back on task. If you are having a really hard time paying attention it will prompt you to take a break.\n \nTo start, make sure your muse is paired and then press refresh. When you see your muse listed, press connect.</string>
+    <string name="ok">OK</string>
+    <string name="alertdialog_title">Time for a break!</string>
+    <string name="alertdialog_message">Taking regular breaks can help you stay on track and help you keep focused. No more than a few minutes, though!</string>
 
     <string name="permission_dialog_title">Muse Needs Your Permission</string>
     <string name="permission_dialog_description">Muse needs a few permissions to work properly. On the next screens, tap "Allow" to proceed. If you deny, Muse will not work properly until you go into your Android settings and allow.</string>
