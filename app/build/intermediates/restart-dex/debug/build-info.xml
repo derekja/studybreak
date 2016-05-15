@@ -4,36 +4,31 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="17930183916664" >
+    timestamp="38591281001232" >
 
     <task
         name="javac"
-        duration="299" />
+        duration="292" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="102" />
+        duration="49" />
     <task
         name="verifier"
-        duration="4" />
+        duration="2" />
 
     <artifact
         location="/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
         type="DEX" />
 
-    <build timestamp="14800064015891" >
+    <build timestamp="38228655828610" >
         <artifact
             location="/home/derekja/urthecast/studybreak/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="17126118304078" >
-        <artifact
-            location="/home/derekja/urthecast/studybreak/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="17930183916664" >
+    <build timestamp="38591281001232" >
         <artifact
             location="/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />

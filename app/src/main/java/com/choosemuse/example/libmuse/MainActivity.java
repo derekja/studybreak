@@ -370,7 +370,7 @@ public class MainActivity extends Activity implements OnClickListener {
         final String status = p.getPreviousConnectionState() + " -> " + current;
         Log.i(TAG, status);
 
-        // Update the UI with the change in connection state.
+        // Update the UI with the change in connection state. removed version
         handler.post(new Runnable() {
             @Override
             public void run() {
@@ -379,7 +379,7 @@ public class MainActivity extends Activity implements OnClickListener {
                 statusText.setText(status);
 
                 final MuseVersion museVersion = muse.getMuseVersion();
-                final TextView museVersionText = (TextView) findViewById(R.id.version);
+                //final TextView museVersionText = (TextView) findViewById(R.id.version);
                 // If we haven't yet connected to the headband, the version information
                 // will be null.  You have to connect to the headband before either the
                 // MuseVersion or MuseConfiguration information is known.
@@ -387,9 +387,9 @@ public class MainActivity extends Activity implements OnClickListener {
                     final String version = museVersion.getFirmwareType() + " - "
                             + museVersion.getFirmwareVersion() + " - "
                             + museVersion.getProtocolVersion();
-                    museVersionText.setText(version);
+                    //museVersionText.setText(version);
                 } else {
-                    museVersionText.setText(R.string.undefined);
+                    //museVersionText.setText(R.string.undefined);
                 }
             }
         });
@@ -420,16 +420,6 @@ public class MainActivity extends Activity implements OnClickListener {
                 assert(eegBuffer.length >= n);
                 getEegChannelValues(eegBuffer,p);
                 eegStale = true;
-                break;
-            case ACCELEROMETER:
-                assert(accelBuffer.length >= n);
-                getAccelValues(p);
-                accelStale = true;
-                break;
-            case ALPHA_RELATIVE:
-                assert(alphaBuffer.length >= n);
-                getEegChannelValues(alphaBuffer,p);
-                alphaStale = true;
                 break;
             case ALPHA_ABSOLUTE:
                 assert(alphaAbsBuffer.length >= n);
@@ -483,11 +473,7 @@ public class MainActivity extends Activity implements OnClickListener {
         buffer[5] = p.getEegChannelValue(Eeg.AUX_RIGHT);
     }
 
-    private void getAccelValues(MuseDataPacket p) {
-        accelBuffer[0] = p.getAccelerometerValue(Accelerometer.FORWARD_BACKWARD);
-        accelBuffer[1] = p.getAccelerometerValue(Accelerometer.UP_DOWN);
-        accelBuffer[2] = p.getAccelerometerValue(Accelerometer.LEFT_RIGHT);
-    }
+
 
 
     //--------------------------------------
@@ -510,6 +496,24 @@ public class MainActivity extends Activity implements OnClickListener {
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
         musesSpinner.setAdapter(spinnerAdapter);
+
+
+        //create intro dialog
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setMessage(R.string.introdialog_message)
+                .setTitle(R.string.introdialog_title);
+        builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                // User clicked OK button
+            }
+        });
+        AlertDialog introDialog = builder.create();
+        introDialog.show();
+
+
+
+        //set up audio output prompts
+
     }
 
     /**
@@ -527,9 +531,7 @@ public class MainActivity extends Activity implements OnClickListener {
             if (eegStale) {
                 updateEeg();
             }
-            if (accelStale) {
-                updateAccel();
-            }
+
             if (alphaAbsStale && betaAbsStale && thetaAbsStale) {
 
                 if (scoreCount==0) {
@@ -539,16 +541,16 @@ public class MainActivity extends Activity implements OnClickListener {
                     attentionScoreBuffer[3] = 0;
                 }
 
-                attentionScoreBuffer[0] += betaAbsBuffer[0]/(alphaAbsBuffer[0]+thetaAbsBuffer[0]);
+                //attentionScoreBuffer[0] += betaAbsBuffer[0]/(alphaAbsBuffer[0]+thetaAbsBuffer[0]);
                 attentionScoreBuffer[1] += betaAbsBuffer[1]/(alphaAbsBuffer[1]+thetaAbsBuffer[1]);
                 attentionScoreBuffer[2] += betaAbsBuffer[2]/(alphaAbsBuffer[2]+thetaAbsBuffer[2]);
-                attentionScoreBuffer[3] += betaAbsBuffer[3]/(alphaAbsBuffer[3]+thetaAbsBuffer[3]);
+                //attentionScoreBuffer[3] += betaAbsBuffer[3]/(alphaAbsBuffer[3]+thetaAbsBuffer[3]);
                 scoreCount++;
                 if (scoreCount>1000) {
-                    attentionScoreBuffer[0] = attentionScoreBuffer[0]/scoreCount;
+                    //attentionScoreBuffer[0] = attentionScoreBuffer[0]/scoreCount;
                     attentionScoreBuffer[1] = attentionScoreBuffer[1]/scoreCount;
                     attentionScoreBuffer[2] = attentionScoreBuffer[2]/scoreCount;
-                    attentionScoreBuffer[3] = attentionScoreBuffer[3]/scoreCount;
+                    //attentionScoreBuffer[3] = attentionScoreBuffer[3]/scoreCount;
                     updateScore();
                     scoreCount = 0;
                 }
@@ -562,14 +564,7 @@ public class MainActivity extends Activity implements OnClickListener {
      * The following methods update the TextViews in the UI with the data
      * from the buffers.
      */
-    private void updateAccel() {
-        TextView acc_x = (TextView)findViewById(R.id.acc_x);
-        TextView acc_y = (TextView)findViewById(R.id.acc_y);
-        TextView acc_z = (TextView)findViewById(R.id.acc_z);
-        acc_x.setText(String.format("%6.2f", accelBuffer[0]));
-        acc_y.setText(String.format("%6.2f", accelBuffer[1]));
-        acc_z.setText(String.format("%6.2f", accelBuffer[2]));
-    }
+
 
     private void updateEeg() {
         TextView tp9 = (TextView)findViewById(R.id.eeg_tp9);
@@ -583,14 +578,16 @@ public class MainActivity extends Activity implements OnClickListener {
     }
 
     private void updateScore() {
-        TextView elem1 = (TextView)findViewById(R.id.elem1);
-        elem1.setText(String.format("%6.2f", attentionScoreBuffer[0]));
+        //TextView elem1 = (TextView)findViewById(R.id.elem1);
+        //elem1.setText(String.format("%6.2f", attentionScoreBuffer[0]));
         TextView elem2 = (TextView)findViewById(R.id.elem2);
         elem2.setText(String.format("%6.2f", attentionScoreBuffer[1]));
         TextView elem3 = (TextView)findViewById(R.id.elem3);
         elem3.setText(String.format("%6.2f", attentionScoreBuffer[2]));
-        TextView elem4 = (TextView)findViewById(R.id.elem4);
-        elem4.setText(String.format("%6.2f", attentionScoreBuffer[3]));
+        //TextView elem4 = (TextView)findViewById(R.id.elem4);
+        //elem4.setText(String.format("%6.2f", attentionScoreBuffer[3]));
+
+
     }
 
 

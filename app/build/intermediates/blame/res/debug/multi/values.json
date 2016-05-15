@@ -520,32 +520,46 @@
                     "startLine": 6,
                     "startColumn": 4,
                     "startOffset": 276,
-                    "endColumn": 47,
-                    "endOffset": 319
+                    "endColumn": 159,
+                    "endOffset": 431
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1453,
+                        "endColumn": 159,
+                        "endOffset": 1608
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 324,
-                    "endColumn": 51,
-                    "endOffset": 371
+                    "startOffset": 436,
+                    "endColumn": 63,
+                    "endOffset": 495
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1389,
+                        "endColumn": 63,
+                        "endOffset": 1448
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 376,
-                    "endColumn": 43,
-                    "endOffset": 415
+                    "startOffset": 500,
+                    "endColumn": 47,
+                    "endOffset": 543
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -555,9 +569,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 420,
-                    "endColumn": 49,
-                    "endOffset": 465
+                    "startOffset": 548,
+                    "endColumn": 51,
+                    "endOffset": 595
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -567,9 +581,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 470,
-                    "endColumn": 37,
-                    "endOffset": 503
+                    "startOffset": 600,
+                    "endColumn": 43,
+                    "endOffset": 639
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -579,9 +593,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 508,
-                    "endColumn": 41,
-                    "endOffset": 545
+                    "startOffset": 644,
+                    "endColumn": 49,
+                    "endOffset": 689
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -591,9 +605,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 550,
-                    "endColumn": 52,
-                    "endOffset": 598
+                    "startOffset": 694,
+                    "endColumn": 37,
+                    "endOffset": 727
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -603,9 +617,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 603,
-                    "endColumn": 40,
-                    "endOffset": 639
+                    "startOffset": 732,
+                    "endColumn": 41,
+                    "endOffset": 769
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -615,9 +629,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 644,
-                    "endColumn": 56,
-                    "endOffset": 696
+                    "startOffset": 774,
+                    "endColumn": 52,
+                    "endOffset": 822
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -627,28 +641,21 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 701,
-                    "endColumn": 66,
-                    "endOffset": 763
+                    "startOffset": 827,
+                    "endColumn": 40,
+                    "endOffset": 863
                 },
                 "from": {
-                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 824,
-                        "endColumn": 66,
-                        "endOffset": 886
-                    }
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 768,
-                    "endColumn": 46,
-                    "endOffset": 810
+                    "startOffset": 868,
+                    "endColumn": 399,
+                    "endOffset": 1263
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -658,9 +665,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 815,
-                    "endColumn": 241,
-                    "endOffset": 1052
+                    "startOffset": 1268,
+                    "endColumn": 57,
+                    "endOffset": 1321
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -670,9 +677,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1057,
-                    "endColumn": 78,
-                    "endOffset": 1131
+                    "startOffset": 1326,
+                    "endColumn": 56,
+                    "endOffset": 1378
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -682,9 +689,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1136,
-                    "endColumn": 69,
-                    "endOffset": 1201
+                    "startOffset": 1383,
+                    "endColumn": 66,
+                    "endOffset": 1445
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -694,9 +701,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1206,
-                    "endColumn": 43,
-                    "endOffset": 1245
+                    "startOffset": 1450,
+                    "endColumn": 33,
+                    "endOffset": 1479
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -706,9 +713,9 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1250,
-                    "endColumn": 53,
-                    "endOffset": 1299
+                    "startOffset": 1484,
+                    "endColumn": 46,
+                    "endOffset": 1526
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -718,9 +725,9 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1304,
-                    "endColumn": 45,
-                    "endOffset": 1345
+                    "startOffset": 1531,
+                    "endColumn": 241,
+                    "endOffset": 1768
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -730,9 +737,9 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1350,
-                    "endColumn": 44,
-                    "endOffset": 1390
+                    "startOffset": 1773,
+                    "endColumn": 78,
+                    "endOffset": 1847
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
@@ -742,10 +749,70 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1395,
-                    "endLine": 30,
+                    "startOffset": 1852,
+                    "endColumn": 69,
+                    "endOffset": 1917
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1922,
+                    "endColumn": 43,
+                    "endOffset": 1961
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1966,
+                    "endColumn": 50,
+                    "endOffset": 2012
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2017,
+                    "endColumn": 53,
+                    "endOffset": 2066
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2071,
+                    "endColumn": 45,
+                    "endOffset": 2112
+                },
+                "from": {
+                    "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2117,
+                    "endLine": 35,
                     "endColumn": 12,
-                    "endOffset": 1681
+                    "endOffset": 2403
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/styles.xml"
@@ -753,12 +820,12 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 1686,
-                    "endLine": 33,
+                    "startOffset": 2408,
+                    "endLine": 38,
                     "endColumn": 12,
-                    "endOffset": 1841
+                    "endOffset": 2563
                 },
                 "from": {
                     "file": "/home/derekja/urthecast/studybreak/app/src/main/res/values/styles.xml"
