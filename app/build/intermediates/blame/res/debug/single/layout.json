@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/derekja/urthecast/studybreak/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/derekja/urthecast/studybreak/app/src/main/res/layout/activity_main.xml"
+    },
+    {
         "merged": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/src/main/res/layout/activity_main.xml"
     }

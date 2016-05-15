@@ -4,29 +4,39 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="9796239580152" >
+    timestamp="17930183916664" >
 
     <task
         name="javac"
-        duration="2027" />
+        duration="299" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="147" />
+        duration="102" />
     <task
         name="verifier"
-        duration="6" />
+        duration="4" />
 
     <artifact
-        location="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+        type="DEX" />
 
-    <build timestamp="9796239580152" >
+    <build timestamp="14800064015891" >
         <artifact
-            location="/home/derekja/libmuse_5.8.0/android/examples/TestLibMuseAndroid/app/build/outputs/apk/app-debug.apk"
+            location="/home/derekja/urthecast/studybreak/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build timestamp="17126118304078" >
+        <artifact
+            location="/home/derekja/urthecast/studybreak/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="17930183916664" >
+        <artifact
+            location="/home/derekja/urthecast/studybreak/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

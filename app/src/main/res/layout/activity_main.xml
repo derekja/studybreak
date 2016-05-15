@@ -7,7 +7,13 @@
 	    android:id="@+id/muses_spinner"
 	    android:layout_width="match_parent"
 	    android:layout_height="60dp" />
-    <LinearLayout
+
+	<TableLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"></TableLayout>
+
+	<LinearLayout
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal" >
@@ -33,7 +39,14 @@
     	android:layout_weight="1"
     	android:textSize="16sp"
     	android:text="@string/status" />
-  	<TextView
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="New Button"
+		android:id="@+id/button" />
+
+	<TextView
     	android:id="@+id/con_status"
    		android:layout_width="match_parent"
     	android:layout_height="match_parent"
@@ -115,9 +128,8 @@
    		 </LinearLayout>
    		 <TextView
 	   		android:layout_width="match_parent"
-	    	android:layout_height="match_parent"
-	    	android:layout_weight="1"
-	    	android:textSize="16sp"
+	    	android:layout_height="57dp"
+			 android:textSize="16sp"
 	    	android:text="@string/muse_elem" />
    		<LinearLayout
         	android:layout_width="match_parent"
