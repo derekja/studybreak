@@ -80,7 +80,7 @@ public class MainActivity extends Activity implements OnClickListener {
     /**
      * Tag used for logging purposes.
      */
-    private final String TAG = "TestLibMuseAndroid";
+    private final String TAG = "StudyBreakMuseAndroid";
 
     /**
      * The MuseManager is how you detect Muse headbands and receive notifications
@@ -131,8 +131,16 @@ public class MainActivity extends Activity implements OnClickListener {
     private boolean eegStale;
     private final double[] alphaBuffer = new double[6];
     private boolean alphaStale;
+    private final double[] alphaAbsBuffer = new double[6];
+    private boolean alphaAbsStale;
+    private final double[] betaAbsBuffer = new double[6];
+    private boolean betaAbsStale;
+    private final double[] thetaAbsBuffer = new double[6];
+    private boolean thetaAbsStale;
+    private final double[] attentionScoreBuffer = new double[6];
     private final double[] accelBuffer = new double[3];
     private boolean accelStale;
+    private int scoreCount = 0;
 
     /**
      * We will be updating the UI using a handler instead of in packet handlers because
@@ -254,7 +262,9 @@ public class MainActivity extends Activity implements OnClickListener {
                 muse.unregisterAllListeners();
                 muse.registerConnectionListener(connectionListener);
                 muse.registerDataListener(dataListener, MuseDataPacketType.EEG);
-                muse.registerDataListener(dataListener, MuseDataPacketType.ALPHA_RELATIVE);
+                muse.registerDataListener(dataListener, MuseDataPacketType.ALPHA_ABSOLUTE);
+                muse.registerDataListener(dataListener, MuseDataPacketType.BETA_ABSOLUTE);
+                muse.registerDataListener(dataListener, MuseDataPacketType.THETA_ABSOLUTE);
                 muse.registerDataListener(dataListener, MuseDataPacketType.ACCELEROMETER);
                 muse.registerDataListener(dataListener, MuseDataPacketType.BATTERY);
                 muse.registerDataListener(dataListener, MuseDataPacketType.DRL_REF);
@@ -412,13 +422,28 @@ public class MainActivity extends Activity implements OnClickListener {
                 break;
             case ACCELEROMETER:
                 assert(accelBuffer.length >= n);
-               // getAccelValues(p);
-              //  accelStale = true;
+                // getAccelValues(p);
+                //  accelStale = true;
                 break;
             case ALPHA_RELATIVE:
                 assert(alphaBuffer.length >= n);
-              //  getEegChannelValues(alphaBuffer,p);
+                //  getEegChannelValues(alphaBuffer,p);
                 //alphaStale = true;
+                break;
+            case ALPHA_ABSOLUTE:
+                assert(alphaAbsBuffer.length >= n);
+                getEegChannelValues(alphaAbsBuffer,p);
+                alphaAbsStale = true;
+                break;
+            case BETA_ABSOLUTE:
+                assert(betaAbsBuffer.length >= n);
+                getEegChannelValues(betaAbsBuffer,p);
+                betaAbsStale = true;
+                break;
+            case THETA_ABSOLUTE:
+                assert(thetaAbsBuffer.length >= n);
+                getEegChannelValues(thetaAbsBuffer,p);
+                thetaAbsStale = true;
                 break;
             case BATTERY:
             case DRL_REF:
@@ -484,6 +509,13 @@ public class MainActivity extends Activity implements OnClickListener {
         spinnerAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item);
         Spinner musesSpinner = (Spinner) findViewById(R.id.muses_spinner);
         musesSpinner.setAdapter(spinnerAdapter);
+
+        //create intro dialog
+        //AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        //builder.setMessage(R.string.introdialog_message)
+        //        .setTitle("Study Break")
+        //        .show();
+
     }
 
     /**
@@ -504,8 +536,29 @@ public class MainActivity extends Activity implements OnClickListener {
             if (accelStale) {
                 updateAccel();
             }
-            if (alphaStale) {
-                updateAlpha();
+            if (alphaAbsStale && betaAbsStale && thetaAbsStale) {
+
+                if (scoreCount==0) {
+                    attentionScoreBuffer[0] = 0;
+                    attentionScoreBuffer[1] = 0;
+                    attentionScoreBuffer[2] = 0;
+                    attentionScoreBuffer[3] = 0;
+                }
+
+                attentionScoreBuffer[0] += betaAbsBuffer[0]/(alphaAbsBuffer[0]+thetaAbsBuffer[0]);
+                attentionScoreBuffer[1] += betaAbsBuffer[1]/(alphaAbsBuffer[1]+thetaAbsBuffer[1]);
+                attentionScoreBuffer[2] += betaAbsBuffer[2]/(alphaAbsBuffer[2]+thetaAbsBuffer[2]);
+                attentionScoreBuffer[3] += betaAbsBuffer[3]/(alphaAbsBuffer[3]+thetaAbsBuffer[3]);
+                scoreCount++;
+                if (scoreCount>1000) {
+                    attentionScoreBuffer[0] = attentionScoreBuffer[0]/scoreCount;
+                    attentionScoreBuffer[1] = attentionScoreBuffer[1]/scoreCount;
+                    attentionScoreBuffer[2] = attentionScoreBuffer[2]/scoreCount;
+                    attentionScoreBuffer[3] = attentionScoreBuffer[3]/scoreCount;
+                    updateScore();
+                    scoreCount = 0;
+                }
+
             }
             handler.postDelayed(tickUi, 1000 / 60);
         }
@@ -535,16 +588,18 @@ public class MainActivity extends Activity implements OnClickListener {
         tp10.setText(String.format("%6.2f", eegBuffer[3]));
     }
 
-    private void updateAlpha() {
+    private void updateScore() {
         TextView elem1 = (TextView)findViewById(R.id.elem1);
-        elem1.setText(String.format("%6.2f", alphaBuffer[0]));
+        elem1.setText(String.format("%6.2f", attentionScoreBuffer[0]));
         TextView elem2 = (TextView)findViewById(R.id.elem2);
-        elem2.setText(String.format("%6.2f", alphaBuffer[1]));
+        elem2.setText(String.format("%6.2f", attentionScoreBuffer[1]));
         TextView elem3 = (TextView)findViewById(R.id.elem3);
-        elem3.setText(String.format("%6.2f", alphaBuffer[2]));
+        elem3.setText(String.format("%6.2f", attentionScoreBuffer[2]));
         TextView elem4 = (TextView)findViewById(R.id.elem4);
-        elem4.setText(String.format("%6.2f", alphaBuffer[3]));
+        elem4.setText(String.format("%6.2f", attentionScoreBuffer[3]));
     }
+
+
 
 
     //--------------------------------------
@@ -641,8 +696,8 @@ public class MainActivity extends Activity implements OnClickListener {
             long timestamp = fileReader.getMessageTimestamp();
 
             Log.i(tag, "type: " + type.toString() +
-                  " id: " + Integer.toString(id) +
-                  " timestamp: " + String.valueOf(timestamp));
+                    " id: " + Integer.toString(id) +
+                    " timestamp: " + String.valueOf(timestamp));
 
             switch(type) {
                 // EEG messages contain raw EEG data or DRL/REF data.
