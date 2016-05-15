@@ -1,0 +1,46 @@
+Applications Memory Usage (kB):
+Uptime: 7682493 Realtime: 8273949
+
+** MEMINFO in pid 22624 [com.choosemuse.example.libmuse] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap      956      892        0        0     3840     2551     1288
+  Dalvik Heap      372      260        0        0    19460    14665     4795
+ Dalvik Other      124      124        0        0                           
+        Stack       72       72        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap      276       40      148        0                           
+    .apk mmap        6        0        0        0                           
+    .dex mmap      404       60      344        0                           
+    .oat mmap      157        0        4        0                           
+    .art mmap      600      344        0        0                           
+   Other mmap        9        8        0        0                           
+      Unknown       87       84        0        0                           
+        TOTAL     3067     1884      500        0    23300    17216     6083
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      604
+         Native Heap:      892
+                Code:      596
+               Stack:       72
+            Graphics:        0
+       Private Other:      220
+              System:      683
+ 
+               TOTAL:     3067      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        1           Activities:        0
+              Assets:        2        AssetManagers:        2
+       Local Binders:        2        Proxy Binders:        6
+       Parcel memory:        2         Parcel count:        8
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

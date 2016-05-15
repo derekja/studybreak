@@ -1,0 +1,169 @@
+CURRENT STATS:
+System memory usage:
+  SOff/Norm: 7 samples:
+    Cached: 611MB min, 645MB avg, 683MB max
+    Free: 50MB min, 88MB avg, 158MB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 110MB min, 114MB avg, 117MB max
+    Native: 74MB min, 75MB avg, 77MB max
+  SOn /Norm: 3 samples:
+    Cached: 641MB min, 664MB avg, 704MB max
+    Free: 63MB min, 70MB avg, 76MB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 102MB min, 112MB avg, 118MB max
+    Native: 73MB min, 74MB avg, 75MB max
+
+Per-Package Stats:
+  * com.choosemuse.example.libmuse / u0a176 / v1:
+      * com.choosemuse.example.libmuse / u0a176 / v1:
+               TOTAL: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+                 Top: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+          (Last Act): 0.61%
+            (Cached): 0.61%
+
+Summary:
+  * com.choosemuse.example.libmuse / u0a176 / v1:
+           TOTAL: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+             Top: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+      (Last Act): 0.61%
+        (Cached): 0.61%
+
+Run time Stats:
+  SOff/Norm: +33m51s476ms
+  SOn /Norm: +1h32m36s258ms (running)
+      TOTAL: +2h6m27s734ms
+
+Memory usage:
+  Kernel : 112MB (70 samples)
+  Native : 74MB (70 samples)
+  Persist: 201MB (100 samples)
+  Top    : 83MB (252 samples)
+  ImpFg  : 121MB (488 samples)
+  ImpBg  : 36MB (254 samples)
+  Service: 126MB (934 samples)
+  Receivr: 409KB (1043 samples)
+  Home   : 66MB (44 samples)
+  LastAct: 423KB (57 samples)
+  CchAct : 8.9MB (55 samples)
+  CchEmty: 236MB (755 samples)
+  Cached : 659MB (70 samples)
+  Free   : 75MB (70 samples)
+  TOTAL  : 1.8GB
+  ServRst: 4.1KB (150 samples)
+
+          Start time: 2016-05-15 11:14:36
+  Total elapsed time: +2h16m40s801ms (partial) libart.so
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOff/Norm: 15 samples:
+    Cached: 0.00 min, 445MB avg, 683MB max
+    Free: 39MB min, 66MB avg, 158MB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 110MB min, 125MB avg, 148MB max
+    Native: 56MB min, 65MB avg, 77MB max
+  SOn /Norm: 26 samples:
+    Cached: 0.00 min, 298MB avg, 704MB max
+    Free: 39MB min, 48MB avg, 112MB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 102MB min, 133MB avg, 153MB max
+    Native: 55MB min, 59MB avg, 75MB max
+
+Per-Package Stats:
+  * com.choosemuse.example.libmuse / u0a176 / v1:
+      * com.choosemuse.example.libmuse / u0a176 / v1:
+               TOTAL: 18% (42MB-106MB-372MB/40MB-104MB-370MB over 107)
+                 Top: 18% (42MB-106MB-372MB/40MB-104MB-370MB over 107)
+          (Last Act): 0.35% (286MB-286MB-286MB/285MB-285MB-285MB over 1)
+            (Cached): 8.0% (28MB-264MB-292MB/25MB-263MB-291MB over 10)
+
+Summary:
+  * com.choosemuse.example.libmuse / u0a176 / v1:
+           TOTAL: 18% (42MB-106MB-372MB/40MB-104MB-370MB over 107)
+             Top: 18% (42MB-106MB-372MB/40MB-104MB-370MB over 107)
+      (Last Act): 0.35% (286MB-286MB-286MB/285MB-285MB-285MB over 1)
+        (Cached): 8.0% (28MB-264MB-292MB/25MB-263MB-291MB over 10)
+
+Run time Stats:
+  SOff/Norm: +18h20m42s164ms
+  SOn /Norm: +4h26m55s235ms
+      TOTAL: +22h47m37s399ms
+
+Memory usage:
+  Kernel : 126MB (287 samples)
+  Native : 64MB (287 samples)
+  Persist: 211MB (700 samples)
+  Top    : 132MB (1349 samples)
+  ImpFg  : 181MB (3043 samples)
+  ImpBg  : 34MB (1913 samples)
+  Backup : 95 (331 samples)
+  Service: 199MB (6603 samples)
+  Receivr: 147KB (6732 samples)
+  Home   : 78MB (108 samples)
+  LastAct: 62MB (1149 samples)
+  CchAct : 211MB (306 samples)
+  CchCAct: 79MB (379 samples)
+  CchEmty: 138MB (3419 samples)
+  Cached : 416MB (287 samples)
+  Free   : 63MB (287 samples)
+  TOTAL  : 1.9GB
+  ServRst: 5.9KB (1683 samples)
+
+          Start time: 2016-05-14 14:33:03
+  Total elapsed time: +22h57m50s436ms (partial) libart.so
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOff/Norm: 7 samples:
+    Cached: 611MB min, 645MB avg, 683MB max
+    Free: 50MB min, 88MB avg, 158MB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 110MB min, 114MB avg, 117MB max
+    Native: 74MB min, 75MB avg, 77MB max
+  SOn /Norm: 3 samples:
+    Cached: 641MB min, 664MB avg, 704MB max
+    Free: 63MB min, 70MB avg, 76MB max
+    ZRam: 0.00 min, 0.00 avg, 0.00 max
+    Kernel: 102MB min, 112MB avg, 118MB max
+    Native: 73MB min, 74MB avg, 75MB max
+
+Per-Package Stats:
+  * com.choosemuse.example.libmuse / u0a176 / v1:
+      * com.choosemuse.example.libmuse / u0a176 / v1:
+               TOTAL: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+                 Top: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+          (Last Act): 0.61%
+            (Cached): 0.61%
+
+Summary:
+  * com.choosemuse.example.libmuse / u0a176 / v1:
+           TOTAL: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+             Top: 70% (43MB-63MB-100MB/40MB-61MB-99MB over 50)
+      (Last Act): 0.61%
+        (Cached): 0.61%
+
+Run time Stats:
+  SOff/Norm: +33m51s476ms
+  SOn /Norm: +1h32m36s401ms
+      TOTAL: +2h6m27s877ms
+
+Memory usage:
+  Kernel : 112MB (70 samples)
+  Native : 74MB (70 samples)
+  Persist: 201MB (100 samples)
+  Top    : 83MB (252 samples)
+  ImpFg  : 121MB (488 samples)
+  ImpBg  : 36MB (254 samples)
+  Service: 126MB (934 samples)
+  Receivr: 409KB (1043 samples)
+  Home   : 66MB (44 samples)
+  LastAct: 423KB (57 samples)
+  CchAct : 8.9MB (55 samples)
+  CchEmty: 236MB (755 samples)
+  Cached : 659MB (70 samples)
+  Free   : 75MB (70 samples)
+  TOTAL  : 1.8GB
+  ServRst: 4.1KB (150 samples)
+
+          Start time: 2016-05-15 11:14:36
+  Total elapsed time: +2h16m40s922ms (partial) libart.so

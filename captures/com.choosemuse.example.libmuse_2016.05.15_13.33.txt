@@ -1,0 +1,50 @@
+Applications Memory Usage (kB):
+Uptime: 7777249 Realtime: 8368705
+
+** MEMINFO in pid 23811 [com.choosemuse.example.libmuse] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     4135     4012        0        0     7936     6595     1340
+  Dalvik Heap     2775     2244        0        0    26226    22862     3364
+ Dalvik Other      668      344        0        0                           
+        Stack      124      124        0        0                           
+       Ashmem        2        0        0        0                           
+      Gfx dev     1752     1752        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     2200      172     1184        0                           
+    .apk mmap      108        0        0        0                           
+    .ttf mmap        8        0        0        0                           
+    .dex mmap      912       60      852        0                           
+    .oat mmap      749        0       32        0                           
+    .art mmap     2253     2044        0        0                           
+   Other mmap       27        8        0        0                           
+   EGL mtrack    39552    39552        0        0                           
+      Unknown      192      192        0        0                           
+        TOTAL    55461    50504     2072        0    34162    29457     4704
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     4288
+         Native Heap:     4012
+                Code:     2300
+               Stack:      124
+            Graphics:    41304
+       Private Other:      548
+              System:     2885
+ 
+               TOTAL:    55461      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:       73         ViewRootImpl:        1
+         AppContexts:        2           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:       12        Proxy Binders:       17
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 

@@ -422,13 +422,13 @@ public class MainActivity extends Activity implements OnClickListener {
                 break;
             case ACCELEROMETER:
                 assert(accelBuffer.length >= n);
-                getAccelValues(p);
-                accelStale = true;
+               // getAccelValues(p);
+              //  accelStale = true;
                 break;
             case ALPHA_RELATIVE:
                 assert(alphaBuffer.length >= n);
-                getEegChannelValues(alphaBuffer,p);
-                alphaStale = true;
+              //  getEegChannelValues(alphaBuffer,p);
+                //alphaStale = true;
                 break;
             case ALPHA_ABSOLUTE:
                 assert(alphaAbsBuffer.length >= n);
