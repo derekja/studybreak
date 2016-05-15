@@ -7,13 +7,7 @@
 	    android:id="@+id/muses_spinner"
 	    android:layout_width="match_parent"
 	    android:layout_height="60dp" />
-
-	<TableLayout
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:layout_gravity="right"></TableLayout>
-
-	<LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:orientation="horizontal" >
@@ -39,15 +33,7 @@
     	android:layout_weight="1"
     	android:textSize="16sp"
     	android:text="@string/status" />
-
-	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="New Button"
-		android:id="@+id/button"
-		android:visibility="gone" />
-
-	<TextView
+  	<TextView
     	android:id="@+id/con_status"
    		android:layout_width="match_parent"
     	android:layout_height="match_parent"
@@ -99,8 +85,7 @@
     	android:layout_height="match_parent"
     	android:layout_weight="1"
     	android:textSize="16sp"
-    	android:text="@string/accel"
-		android:visibility="gone" />
+    	android:text="@string/accel" />
     	<LinearLayout
 	        android:layout_width="match_parent"
 	        android:layout_height="match_parent"
@@ -112,29 +97,27 @@
 		        android:layout_height="match_parent"
 		        android:layout_weight="1"
 		        android:textSize="16sp"
-		        android:text="@string/init_val"
-				android:visibility="gone" />
+		        android:text="@string/init_val" />
 	        <TextView
 	            android:id="@+id/acc_y"
 		        android:layout_width="match_parent"
 		        android:layout_height="match_parent"
 		        android:layout_weight="1"
 		        android:textSize="16sp"
-		        android:text="@string/init_val"
-				android:visibility="gone" />
+		        android:text="@string/init_val" />
 	        <TextView
 	            android:id="@+id/acc_z"
 		        android:layout_width="match_parent"
 		        android:layout_height="match_parent"
 		        android:layout_weight="1"
 		        android:textSize="16sp"
-		        android:text="@string/init_val"
-				android:visibility="gone" />
+		        android:text="@string/init_val" />
    		 </LinearLayout>
    		 <TextView
 	   		android:layout_width="match_parent"
-	    	android:layout_height="57dp"
-			 android:textSize="16sp"
+	    	android:layout_height="match_parent"
+	    	android:layout_weight="1"
+	    	android:textSize="16sp"
 	    	android:text="@string/muse_elem" />
    		<LinearLayout
         	android:layout_width="match_parent"
@@ -147,8 +130,7 @@
 		        android:layout_height="match_parent"
 		        android:layout_weight="1"
 		        android:textSize="16sp"
-		        android:text="@string/init_val"
-				android:visibility="invisible" />
+		        android:text="@string/init_val" />
 	        <TextView
 	            android:id="@+id/elem2"
 		        android:layout_width="match_parent"
@@ -169,8 +151,7 @@
 		        android:layout_height="match_parent"
 		        android:layout_weight="1"
 		        android:textSize="16sp"
-		        android:text="@string/init_val"
-				android:visibility="invisible" />
+		        android:text="@string/init_val" />
 	    </LinearLayout>
    	    <TextView
 	   		android:layout_width="match_parent"
