@@ -591,10 +591,27 @@ public class MainActivity extends Activity implements OnClickListener {
     private void updateScore() {
         TextView elem1 = (TextView)findViewById(R.id.elem1);
         elem1.setText(String.format("%6.2f", attentionScoreBuffer[0]));
+
+
         TextView elem2 = (TextView)findViewById(R.id.elem2);
-        elem2.setText(String.format("%6.2f", attentionScoreBuffer[1]));
+        String olds2 = elem2.getText().toString();
+        String s2 = olds2;
+        if (attentionScoreBuffer[1]>.4) { s2 = "High"; }
+        if (attentionScoreBuffer[1]>.2 && attentionScoreBuffer[1]<.4) {s2 = "Medium"; }
+        if (attentionScoreBuffer[1]<.2) { s2 = "Low"; }
+
+        elem2.setText(s2);
         TextView elem3 = (TextView)findViewById(R.id.elem3);
-        elem3.setText(String.format("%6.2f", attentionScoreBuffer[2]));
+        String olds3 = elem2.getText().toString();
+        String s3 = olds2;
+        if (attentionScoreBuffer[2]>.4) { s3 = "High"; }
+        if (attentionScoreBuffer[2]>.2 && attentionScoreBuffer[2]<.4) {s3 = "Medium"; }
+        if (attentionScoreBuffer[2]<.2) { s3 = "Low"; }
+
+        elem3.setText(s3);
+        //elem3.setText(String.format("%6.2f", attentionScoreBuffer[2]));
+
+
         TextView elem4 = (TextView)findViewById(R.id.elem4);
         elem4.setText(String.format("%6.2f", attentionScoreBuffer[3]));
     }
